@@ -55,6 +55,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Ropa interior femenina: base del panty y tipos de panty',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
