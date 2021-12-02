@@ -18,7 +18,7 @@
 
     p.mb-5 En el siguiente recurso estudie en detalle el proceso de desarrollo del modelo del traje de baño femenino (adultos).
 
-    TabsC.color-primario
+    TabsC.color-primario.mb-5
       .row.py-3.py-md-4.justify-content-center(titulo="Medidas")      
         .col-lg-3
           figure.mb-4
@@ -55,6 +55,13 @@
           h4 Delantero (II)
           p.mb-0  Trazar sisa uniendo los puntos 12 - 7 rozando la línea 14 - 17<br>8 - 15 = ½ de la diferencia entre pecho y cadera<br>4 - 16 = 1/10 de cadera menos 1cm<br>3 - 20 = 1/10 de cadera<br>18 - 19 = ½ de la diferencia entre cintura y pecho menos 1 cm<br>0 = ½ de la distancia 6 - 9<br>A 2 cm del punto 6 y haciendo centro en el punto 0 trazar una <br>circunferencia que delimite el área del busto
 
+    .row.justify-content-center
+      .col-lg-5
+        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p <b>Anexo.</b> Para conocer y afianzar sus habilidades en el básico del vestido de baño femenino infantil explore el Anexo 4 Vestido de Baño Femenino Infantil.
 
 </template>
 
