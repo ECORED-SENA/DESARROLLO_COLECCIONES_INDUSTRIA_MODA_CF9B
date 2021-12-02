@@ -62,6 +62,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Escalado de patrones de ropa interior y deportiva',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
