@@ -86,7 +86,7 @@
             figure
               img(src='@/assets/curso/tema1/img03.svg') 
           .col-6.d-flex.align-items-center
-            p.mb-0 <b>¡Importante!</b>
+            h4.mb-0 <b>¡Importante!</b>
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido

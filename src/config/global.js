@@ -69,6 +69,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Básicos del brasier y principiante de niña',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
