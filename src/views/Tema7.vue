@@ -5,11 +5,23 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1 Marco conceptual e importancia de la información contable
+      h1 Desarrollo de modelos de brasier, modelo de brasier básico
 
-    #t_7_1.titulo-segundo.color-acento-contenido
-      h2 7.1 Reconocimiento
+    .row.justify-content-center.mb-4
+      .col-lg-6.col-8
+        figure.mb-4
+          img(src='@/assets/curso/tema7/img01.png') 
+      .col-lg-6.d-flex.align-items-center
+        p.mb-4 Adicional a la protección de los senos, el brasier es una prenda que se ha convertido en elemento fundamental del vestuario desde el punto de vista estético, de moda, comercial, entre otros. El desarrollo de modelos de brasier también ha ido evolucionando con el paso de los años, pero sin importar cuál sea el diseño final, existe un modelo básico de brasier, del cual se parte para confeccionarlos.
 
+    p.mb-5 Conozca, a continuación, los pasos para el desarrollo del modelo de brasier básico. Procure llevar registro de los aspectos más importantes en su libreta personal de apuntes.
+    
+    .row.justify-content-center
+      .col-lg-9
+        figure.mb-4
+          img(src='@/assets/curso/tema7/img02.svg') 
+
+    Separador
 
 </template>
 
