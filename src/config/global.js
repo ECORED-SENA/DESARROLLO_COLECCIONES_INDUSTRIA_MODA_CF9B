@@ -111,6 +111,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema11',
+        icono: 'far fa-file-alt',
+        numero: '11',
+        titulo: 'Básico de leggins',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',

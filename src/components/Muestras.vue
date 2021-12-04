@@ -601,7 +601,7 @@ div
       p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
       p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-    div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
+    div.tarjeta(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
       .h5.mb-2 titulo
       p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
