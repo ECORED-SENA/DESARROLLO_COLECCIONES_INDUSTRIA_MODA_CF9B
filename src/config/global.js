@@ -97,6 +97,20 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: 'Variación a vestido de baño femenino alto',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema10',
+        icono: 'far fa-file-alt',
+        numero: '10',
+        titulo: 'Escalado del vestido de baño femenino',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
