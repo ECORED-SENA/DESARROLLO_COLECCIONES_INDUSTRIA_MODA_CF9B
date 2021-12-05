@@ -118,6 +118,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema12',
+        icono: 'far fa-file-alt',
+        numero: '12',
+        titulo: 'Básico interior masculino',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
