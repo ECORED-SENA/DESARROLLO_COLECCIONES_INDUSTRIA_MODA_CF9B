@@ -19,8 +19,7 @@
     ImagenInfograficaB.color-acento-botones
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema11/img02.png', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
+          img(src='@/assets/curso/tema11/img02.png', alt='Texto que describa la imagen')          
 
       div(x="9.1%" y="27.2%" tooltip="Medidas" numero=" ")
         .row.justify-content-center

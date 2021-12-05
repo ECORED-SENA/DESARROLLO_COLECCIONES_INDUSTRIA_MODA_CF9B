@@ -88,6 +88,7 @@
                 img(src='@/assets/curso/tema5/img09.svg') 
             .col-6.d-flex.align-items-center
               h4.mb-0 <b>Principiante de niñas</b>
+              
       .col-lg-3.col-6.px-3
         a.lnk(@click="modal3 = true")          
           .row.justify-content-center.t1-div1.py-3

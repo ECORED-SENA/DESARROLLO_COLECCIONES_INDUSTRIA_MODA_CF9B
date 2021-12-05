@@ -132,6 +132,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema14',
+        icono: 'far fa-file-alt',
+        numero: '14',
+        titulo: 'Escalado interior masculino',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',

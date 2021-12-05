@@ -14,3 +14,4 @@ Links no disponibles
 - Tema 8: No existe el pdf al final del tema
 - Tema 9: No existe el pdf al final del tema
 - Tema 12: No existe el pdf al final del tema
+- Tema 14: No se han incluido las imagenes y textos del slider en el diseño (de los 7 solo hay 1)

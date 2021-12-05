@@ -21,7 +21,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    .tarjeta.tarjeta--gris(style="background-color: #FAFAFA").p-4.mb-5    
+    .tarjeta.tarjeta--gris(style="background-color: #FAFAFA").p-4
       LineaTiempoC.color-acento-contenido(text-small)
         .row.justify-content-center(titulo="Paso 01")
           .col-lg-4
