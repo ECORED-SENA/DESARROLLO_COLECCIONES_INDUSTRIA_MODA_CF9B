@@ -14,7 +14,7 @@
       .col-lg-6.d-flex.align-items-center
         div.mb-4
           h4.mb-1 Al igual que el escalado de otras prendas de vestir, de cualquiera de las líneas masculina, femenina, infantil, el escalado de interior masculino cuenta con sus propios pasos clave.
-          p.mb-0Cumplirlos y aplicarlos de manera correcta favorecerá que el desarrollo y confección de las mismas sea exitoso y, responda realmente a las necesidades y exigencias del público usuario y a las expectativas de la industria de la moda.
+          p.mb-0 Cumplirlos y aplicarlos de manera correcta favorecerá que el desarrollo y confección de las mismas sea exitoso y, responda realmente a las necesidades y exigencias del público usuario y a las expectativas de la industria de la moda.
 
     p.mb-5 Para realizar el proceso de escalado manual del interior masculino tenga en cuenta los siguientes pasos:
 

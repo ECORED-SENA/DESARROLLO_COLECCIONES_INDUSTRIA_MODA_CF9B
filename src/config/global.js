@@ -146,6 +146,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema16',
+        icono: 'far fa-file-alt',
+        numero: '16',
+        titulo: 'Sudadera masculino',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
