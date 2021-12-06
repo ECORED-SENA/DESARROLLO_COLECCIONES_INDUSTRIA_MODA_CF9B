@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 12
+        span 16
       h1 Básico interior masculino
 
     Separador

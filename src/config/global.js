@@ -139,6 +139,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema15',
+        icono: 'far fa-file-alt',
+        numero: '15',
+        titulo: 'Básico camiseta T-shirt masculina y variación a camisilla',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
