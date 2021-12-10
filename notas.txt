@@ -1,13 +1,5 @@
-
-
 Videos no disponibles
 - Introduccion (este video no se encuentra planificado en la tarjeta padre)
-- Tema 2
 - Tema 2: Video al final del tema, accesible por link
 - Tema 4: Video al final del tema, accesible por link
-- Tema 5: Video al final del tema, accesible por link
-
-Links no disponibles
-- Tema 3: No existe el pdf al final del tema
-- Tema 13: No existe el recurso audiovisual al final del tema
-- Tema 14: No se han incluido las imagenes y textos del slider en el diseño (de los 7 solo hay 1)
+- Tema 6: Video al final del tema, accesible por link

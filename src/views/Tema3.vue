@@ -27,8 +27,8 @@
               p.mb-0 La confección de <i>panties</i> requiere operaciones elementales como el corte, el cosido, pulido básico de sus piezas, etc. En ello, se deben considerar en detalle las características, materiales, dimensiones, modos de uso y especificaciones técnicas de calidad. 
 
     .row.justify-content-center
-      .col-lg-6
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      .col-lg-6      
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Anexo1_Base_Tipos_Panty.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

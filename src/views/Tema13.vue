@@ -25,7 +25,7 @@
             h2 Tipos de interior masculino
           p.mb-4 Para afianzar sus conocimientos y explorar detalles relevantes sobre los tipos de prendas de uso interior masculino, visualice con atención el recurso audiovisual que se muestra a continuación.
           
-          a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Anexo7_Tipos_Interior_Masculino.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
