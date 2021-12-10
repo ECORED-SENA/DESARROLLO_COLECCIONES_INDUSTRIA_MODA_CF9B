@@ -153,6 +153,13 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema17',
+        icono: 'far fa-file-alt',
+        numero: '17',
+        titulo: 'Pantaloneta masculino',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema100',
         icono: 'far fa-file-alt',
         numero: '100',
