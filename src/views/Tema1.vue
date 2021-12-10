@@ -148,7 +148,7 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Drop
+      h2 1.2 <i>Drop</i>
     
     .row.justify-content-center.mb-4.px-5
       .col-lg-6.col-8.d-flex.align-items-center
@@ -157,9 +157,9 @@
       .col-lg-6.d-flex.align-items-center
         div.mb-4
           h4.mb-4 Es una palabra internacional que indica la diferencia en centímetros entre la cintura y el pecho para el hombre y, entre cadera y tórax máximo para la mujer.
-          p.mb-5 El drop no es más que una medida de identificación que permite determinar la talla correspondiente a cada individuo.
+          p.mb-5 El <i>drop</i> no es más que una medida de identificación que permite determinar la talla correspondiente a cada individuo.
           .cajon.color-secundario.p-4.px-5
-            p.mb-0 Generalmente predomina para el hombre el drop negativo, puesto que el hombre suele tener más pecho que cintura, aunque al realizar una tabla de tallas y medidas se acostumbra que a mayor talle menos drop, llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho.   
+            p.mb-0 Generalmente predomina para el hombre el <i>drop</i> negativo, puesto que el hombre suele tener más pecho que cintura, aunque al realizar una tabla de tallas y medidas se acostumbra que a mayor talle menos <i>drop</i>, llegando en tallas extremas a ser positivo o sea un cuerpo con más cintura que pecho.   
 
     p.mb-5 A continuación, se muestran algunos ejemplos:
 
@@ -170,14 +170,14 @@
             figure
               img(src='@/assets/curso/tema1/img06.svg') 
           .col-6.d-flex.align-items-center
-            h4.mb-0 <b>Drop<br>masculino</b>
+            h4.mb-0 <b><i>Drop</i><br>masculino</b>
       .col-lg-3.col-6.px-4
         .row.justify-content-center.t1-div2.py-3
           .col-4.d-flex.align-items-center
             figure
               img(src='@/assets/curso/tema1/img07.svg') 
           .col-6.d-flex.align-items-center
-            h4.mb-0 <b>Drop<br>femenino</b>
+            h4.mb-0 <b><i>Drop</i><br>femenino</b>
     
     Separador
 
@@ -341,10 +341,10 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Medidas deducidas',
+        titulo: 'Postura',
         texto:
-          'Se construyen a partir de fórmulas matemáticas ya establecidas, obtenidas de estudios antropométricos realizados en países como España, donde la configuración del cuerpo es similar a la de la población latina. Dan como resultado, las medidas para construir cuadros de tallas, a partir de los cuales se pueden obtener las medidas y establecer el incremento o la diferencia que existe entre talla y talla, en los diferentes puntos de referencia del cuerpo humano.',
-        imagen: require('@/assets/curso/tema1/img02.png'),
+          'Mantener una postura natural, de pie y relajada, mirando hacia delante, usar preferiblemente cinta métrica metálica flexible, no ahogar con la cinta métrica, usar una cinta marcando la línea de la cintura, medir por las zonas más sobresalientes del cuerpo y tener en cuenta las holguras.',
+        imagen: require('@/assets/curso/tema1/img08.png'),
       },
       {
         titulo: 'Medidas deducidas',
@@ -353,22 +353,22 @@ export default {
         imagen: require('@/assets/curso/tema1/img02.png'),
       },
       {
-        titulo: 'Medidas deducidas',
+        titulo: 'Medidas estandar',
         texto:
-          'Se construyen a partir de fórmulas matemáticas ya establecidas, obtenidas de estudios antropométricos realizados en países como España, donde la configuración del cuerpo es similar a la de la población latina. Dan como resultado, las medidas para construir cuadros de tallas, a partir de los cuales se pueden obtener las medidas y establecer el incremento o la diferencia que existe entre talla y talla, en los diferentes puntos de referencia del cuerpo humano.',
-        imagen: require('@/assets/curso/tema1/img02.png'),
+          'Las medidas deducidas se toman como estándares y son la base para construir los moldes básicos que serán utilizados para el desarrollo de cualquier tipo de prenda, con la certeza que le servirán al público objetivo de una marca o producto a nivel industrial.',
+        imagen: require('@/assets/curso/tema1/img09.png'),
       },
       {
-        titulo: 'Medidas deducidas',
+        titulo: 'Diferencias con confección sobre medida',
         texto:
-          'Se construyen a partir de fórmulas matemáticas ya establecidas, obtenidas de estudios antropométricos realizados en países como España, donde la configuración del cuerpo es similar a la de la población latina. Dan como resultado, las medidas para construir cuadros de tallas, a partir de los cuales se pueden obtener las medidas y establecer el incremento o la diferencia que existe entre talla y talla, en los diferentes puntos de referencia del cuerpo humano.',
-        imagen: require('@/assets/curso/tema1/img02.png'),
+          'En confección industrial no es posible tomar todas las medidas a los clientes potenciales, como suele hacerse en confección sobremedida (modistería y sastrería). Para desarrollar estas operaciones es necesario tener las medidas básicas de PECHO y ESTATURA TOTAL (ET), que son medidas estándar sin las cuales no se puede realizar el cuadro de tallas deducido, determinando la configuración con la que trabajaremos los patrones.',
+        imagen: require('@/assets/curso/tema1/img10.png'),
       },
       {
-        titulo: 'Medidas deducidas',
+        titulo: 'Medidas restantes',
         texto:
-          'Se construyen a partir de fórmulas matemáticas ya establecidas, obtenidas de estudios antropométricos realizados en países como España, donde la configuración del cuerpo es similar a la de la población latina. Dan como resultado, las medidas para construir cuadros de tallas, a partir de los cuales se pueden obtener las medidas y establecer el incremento o la diferencia que existe entre talla y talla, en los diferentes puntos de referencia del cuerpo humano.',
-        imagen: require('@/assets/curso/tema1/img02.png'),
+          'Las restantes medidas se deben deducir o calcularlas a través de las medidas básicas.',
+        imagen: require('@/assets/curso/tema1/img11.png'),
       },
     ],
   }),

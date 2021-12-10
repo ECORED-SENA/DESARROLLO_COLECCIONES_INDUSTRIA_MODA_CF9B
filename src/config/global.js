@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Patronaje y escalado ropa interior y deportiva',
     descripcionCurso:
-      'En este componente el aprendiz se afianzará en la elaboración de prototipos con calidad y confort para el consumidor final, desarrollando patrones básicos de ropa interior, lencería y deportiva, tanto masculina como femenina e infantil, con su respectivo escalado. Conocerá la aplicación del método manual de patronaje y escalado de línea interior y deportiva.',
+      'En este componente el aprendiz se afianzará en la elaboración de prototipos con calidad y <i>confort</i> para el consumidor final, desarrollando patrones básicos de ropa interior, lencería y deportiva, tanto masculina como femenina e infantil, con su respectivo escalado. Conocerá la aplicación del método manual de patronaje y escalado de línea interior y deportiva.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Drop',
+            titulo: '<i>Drop</i>',
             hash: 't_1_2',
           },
           {
@@ -58,7 +58,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Ropa interior femenina: base del panty y tipos de panty',
+        titulo:
+          'Ropa interior femenina: base del <i>panty</i> y tipos de <i>panty</i>',
         desarrolloContenidos: true,
       },
       {
@@ -72,21 +73,22 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Básicos del brasier y principiante de niña',
+        titulo: 'Básicos del <i>brasier</i> y principiante de niña',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Escalado del corpiño para brasiere',
+        titulo: 'Escalado del corpiño para <i>brasier</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Desarrollo de modelos de brasier, modelo de brasier básico',
+        titulo:
+          'Desarrollo de modelos de <i>brasier</i>, modelo de <i>brasier</i> básico',
         desarrolloContenidos: true,
       },
       {
@@ -114,7 +116,7 @@ export default {
         nombreRuta: 'tema11',
         icono: 'far fa-file-alt',
         numero: '11',
-        titulo: 'Básico de leggins',
+        titulo: 'Básico de <i>leggins</i>',
         desarrolloContenidos: true,
       },
       {
@@ -142,7 +144,8 @@ export default {
         nombreRuta: 'tema15',
         icono: 'far fa-file-alt',
         numero: '15',
-        titulo: 'Básico camiseta T-shirt masculina y variación a camisilla',
+        titulo:
+          'Básico camiseta <i>T-shirt</i> masculina y variación a camisilla',
         desarrolloContenidos: true,
       },
       {
@@ -159,131 +162,14 @@ export default {
         titulo: 'Pantaloneta masculino',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'tema100',
-        icono: 'far fa-file-alt',
-        numero: '100',
-        titulo: 'Componentes',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
-      },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -376,7 +262,7 @@ export default {
     {
       termino: '<em>Áectores</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
     {
       termino: 'Moda',

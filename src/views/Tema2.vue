@@ -12,7 +12,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema2/img01.png') 
       .col-lg-6.d-flex.align-items-center
-        p.mb-4 Para producir prendas de la línea de ropa interior y deportiva es muy importante tener presente el tipo de material o tejido a utilizar, porque el comportamiento de cada textil es diferente y puede presentar variaciones tanto en su composición como en el tipo de tejido, siendo esto determinante para garantizar confort y funcionalidad de las prendas.
+        p.mb-4 Para producir prendas de la línea de ropa interior y deportiva es muy importante tener presente el tipo de material o tejido a utilizar, porque el comportamiento de cada textil es diferente y puede presentar variaciones tanto en su composición como en el tipo de tejido, siendo esto determinante para garantizar <i>confort</i> y funcionalidad de las prendas.
 
     p.mb-5 Conozca las generalidades y aspectos más importantes de los tejidos y telas, visualizando con atención el recurso que se muestra a continuación:
     

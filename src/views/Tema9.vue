@@ -20,7 +20,7 @@
 
     .row.justify-content-center
       .col-lg-5
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Anexo5_VariaciónVDB_Femenino_Infantil.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -49,9 +49,9 @@ export default {
         imagen: require('@/assets/curso/tema9/img03.svg'),
       },
       {
-        titulo: 'Software Optitex',
+        titulo: '<i>Software</i> <i>Optitex</i>',
         texto:
-          'Tenga presente que todos los pasos del desarrollo de modelos de prendas, se pueden procesar manualmente y, desde luego, con ayudas tecnológicas como, por ejemplo, el software Optitex. De donde son tomadas las gráficas e imágenes que se muestran de ejemplos en este componente formativo. ',
+          'Tenga presente que todos los pasos del desarrollo de modelos de prendas, se pueden procesar manualmente y, desde luego, con ayudas tecnológicas como, por ejemplo, el <i>software</i> <i>Optitex</i>. De donde son tomadas las gráficas e imágenes que se muestran de ejemplos en este componente formativo. ',
         imagen: require('@/assets/curso/tema9/img04.svg'),
       },
     ],

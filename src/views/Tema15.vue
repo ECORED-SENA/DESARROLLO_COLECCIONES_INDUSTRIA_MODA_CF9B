@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 15
-      h1 Básico camiseta T-shirt masculina y variación a camisilla
+      h1 Básico camiseta <i>T-shirt</i> masculina y variación a camisilla
 
     .row.justify-content-evenly.mb-4      
       .col-lg-6.d-flex.align-items-center
@@ -20,20 +20,20 @@
         .row.justify-content-center.t12-div1.py-3        
           .col-4.d-flex.align-items-center
             figure
-              img(src='@/assets/curso/tema12/img02.svg') 
+              img(src='@/assets/curso/tema15/img08.svg') 
           .col-8.d-flex.align-items-center
             h4.mb-0 <b>Cuadro de tallas normalizado</b><br>Camisas y chaquetas
 
     Separador
 
     #t_15_1.titulo-segundo.color-acento-contenido
-      h2 15.1 Camiseta T-shirt masculino
+      h2 15.1 Camiseta <i>T-shirt</i> masculino
 
-    p.mb-5 Este es el desarrollo del básico de camiseta T-Shirt masculino:
+    p.mb-5 Este es el desarrollo del básico de camiseta <i>T-Shirt</i> masculino:
 
     .tabla-b.color-primario.mb-5
       .tabla-b__header
-        h4.mb-0 Camiseta T-shirt masculino
+        h4.mb-0 Camiseta <i>T-shirt</i> masculino
       table        
         tr
           th.w-50
@@ -44,7 +44,7 @@
               img(src='@/assets/curso/tema15/img02.png') 
         tr
           th.w-50
-            p.mb-4 Para desarrollar el cuello, el cual va en reeb o en el mismo tejido, a las bases delantera y espalda por la línea de escote se le descuentan de 2 a 3 cm para que pueda entrar la cabeza cómodamente. 
+            p.mb-4 Para desarrollar el cuello, el cual va en <i>reeb</i> o en el mismo tejido, a las bases delantera y espalda por la línea de escote se le descuentan de 2 a 3 cm para que pueda entrar la cabeza cómodamente. 
             p.mb-1 Trazar el escote en las bases.
             p.mb-0 El cuello es igual al perímetro del escote, menos el porcentaje de elasticidad del tejido por el ancho de 7 cm o según diseño.
           td 
@@ -54,7 +54,7 @@
         tr
           th.w-50
             p.mb-4 Para desarrollar la manga de la camiseta se toma como base el patrón de la camisa, se debe tener en cuenta el nuevo perímetro de sisa, corregir la copa de la manga con curvas muy suaves como lo indica el gráfico. 
-            p.mb-0 El bajo de la manga pude ir más ajustado.
+            p.mb-0 El bajo de la manga puede ir más ajustado.
           td 
             figure
               img(src='@/assets/curso/tema15/img04.png') 
@@ -62,7 +62,7 @@
     #t_15_2.titulo-segundo.color-acento-contenido
       h2 15.2 Camisilla masculino
 
-    p.mb-4 La camisilla es una de las variaciones que tiene el básico camiseta T-Shirt. Es generalmente usada como prenda de protección contra el viento, el sudor o la exposición de la piel a ciertos tipos de telas con las que se confeccionan camisas y camisetas. Otro de los usos más frecuentes de los últimos años se da en la práctica de gimnasia o culturismos, dada la comodidad que ofrecen para ejecutar movimientos de fuerza en brazos y tren superior.
+    p.mb-4 La camisilla es una de las variaciones que tiene el básico camiseta <i>T-Shirt</i>. Es generalmente usada como prenda de protección contra el viento, el sudor o la exposición de la piel a ciertos tipos de telas con las que se confeccionan camisas y camisetas. Otro de los usos más frecuentes de los últimos años se da en la práctica de gimnasia o culturismos, dada la comodidad que ofrecen para ejecutar movimientos de fuerza en brazos y tren superior.
     p.mb-5 Este es el desarrollo del básico de la variación a camisilla, línea masculina:
 
     .tabla-b.color-acento-contenido.mb-5

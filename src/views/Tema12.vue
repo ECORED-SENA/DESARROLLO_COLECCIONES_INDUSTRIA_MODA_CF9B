@@ -95,14 +95,14 @@
           .row.justify-content-center
             .col-lg-10
               h4 ¡Importante!              
-              p.mb-4 Todas las acciones para el desarrollo básico de cualquier prenda, además de poderse realizar de manera manual, también pueden ser desarrolladas en softwares especializados como Optitex – Corel.
+              p.mb-4 Todas las acciones para el desarrollo básico de cualquier prenda, además de poderse realizar de manera manual, también pueden ser desarrolladas en <i>softwares</i> especializados como <i>Optitex</i> – <i>Corel</i>.
               figure
                 img(src='@/assets/curso/tema12/img10.svg') 
     
 
     .row.justify-content-center
       .col-lg-5
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Anexo6_Interior_Masculino.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

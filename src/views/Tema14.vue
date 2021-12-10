@@ -67,16 +67,40 @@ export default {
         imagen: require('@/assets/curso/tema14/img02.png'),
       },
       {
-        titulo: 'Variación trasera',
+        titulo: 'En segunda instancia',
         texto:
-          'Trazar la base de trasero del vestido de baño con sus líneas y puntos de construcción.<br>Z = ½ de la distancia 11 - 13<br>Z - Y = a la distancia A - B en el delantero<br>7 - X = a la distancia 7 - D en el delantero<br>14 - W = 2 a 4 cm o según diseño<br>19 - T = a la distancia 19 - 1 en el delantero<br>Unir con curva 17 con T como lo indica el gráfico<br>Trazar sisa uniendo los puntos Y - X<br>Trazar escote uniendo los puntos W con Z',
-        imagen: require('@/assets/curso/tema9/img03.svg'),
+          'Determinar las medidas que se necesitan de acuerdo con la prenda a trabajar, en este caso del interior clásico de hombre: cintura, cadera, altura de cadera.<br> Entonces, aplicar el incremento en cada una de estas medidas, que corresponde a la diferencia entre talla y talla, según el cuadro de tallas:<br>Cintura 2.5 cm en el semi/perímetro<br>Cadera 2.5 cm en el semi/perímetro<br>Altura de cadera 1.2 cm en total',
+        imagen: require('@/assets/curso/tema14/img05.png'),
       },
       {
-        titulo: 'Software Optitex',
+        titulo: 'Medidas y piezas a escalar',
         texto:
-          'Tenga presente que todos los pasos del desarrollo de modelos de prendas, se pueden procesar manualmente y, desde luego, con ayudas tecnológicas como, por ejemplo, el software Optitex. De donde son tomadas las gráficas e imágenes que se muestran de ejemplos en este componente formativo. ',
-        imagen: require('@/assets/curso/tema9/img04.svg'),
+          'Estas medidas se dividen de acuerdo con el número de piezas a escalar, en este caso tenemos la ½ de un delantero y la ½ de un trasero, se reparten de tal forma que queden equilibradas en los diferentes puntos que tiene el molde, normalmente en los ángulos.<br><br>Es, en ese paso, cuando se determinan los incrementos:<br>Cintura: 2.5 cm /2 = 1.25 cm (1/4 parte del contorno de cintura)<br>Cadera: 2.5 cm/2 = 1.25 cm (1/4 parte del contorno de cadera)<br>Altura de cadera: 1.2 cm/2 = 0.6 cm (Para que el molde aumente hacia la cintura y la entrepierna)',
+        imagen: require('@/assets/curso/tema14/img06.png'),
+      },
+      {
+        titulo: 'Escalado',
+        texto:
+          'Teniendo esta información se procede a realizar el escalado a los moldes. Trazar el molde sobre el papel, con sus líneas de construcción, es muy importante que cada pieza tenga bien definidas las líneas, los ángulos el hilo de la tela, esto es definitivo para el desarrollo del escalado ya que los trazos y proyecciones se escuadran con base a estas líneas.',
+        imagen: require('@/assets/curso/tema14/img07.png'),
+      },
+      {
+        titulo: 'Prolongación de la línea',
+        texto:
+          'Luego de trazado el molde se procede a prolongar la línea del centro (Dobles de tela) tanto hacia la parte superior como inferior (sobre la línea Y). Sobre esta línea (Y) se mide lo que corresponde a la medida de tiro (0.6 mm) por cada talla a escalar, tanto en la cintura como en la entrepierna.',
+        imagen: require('@/assets/curso/tema14/img08.png'),
+      },
+      {
+        titulo: 'Escuadrado entrepierna',
+        texto:
+          'Escuadrar hacia abajo el lado de la entrepierna que da hacia el costado y sobre esta línea medir los mismos 0.6 mm por cada talla, tanto las superiores 34, 36 y 38 como las inferiores 30 y 28. Sobre la línea central se hace escuadra pasando por el punto cintura /costado, trazar la línea horizontal ( eje X del plano) hacia afuera del punto. Sobre esta línea, aplicar incremento correspondiente a la medida de cintura, 1.25 cm multiplicado por el número de tallas a escalar hacia afuera; partiendo de la talla base (32) se escala la 34,36 y 38, tres tallas superiores ósea 1.25 cm por 3 tallas es igual a 3.75 cm. Se marca la medida completa, desde el molde base por la línea que se trazó (X).',
+        imagen: require('@/assets/curso/tema14/img09.png'),
+      },
+      {
+        titulo: 'Escuadra sobre punto cintura/costado',
+        texto:
+          'Hacer escuadra sobre el punto de la cintura/costado, talla superior en sentido vertical (Eje Y del plano), sobre esta línea aplicar el mismo incremento del centro frente cintura siendo 0.6 mm por el número de tallas a escalar hacia afuera o sea 3 tallas (0.6 X 3 = 1.8 cm), esta medida se aplica completa. Trazar la diagonal, uniendo respectivamente el costado cintura de la talla base, con el costado cintura de la talla límite o talla superior, se toma la medida a la diagonal y se divide por el número de tallas a escalar hacia afuera, en este caso 3 tallas. La misma medida se aplica sobre la diagonal hacia adentro para las tallas pequeñas, en este caso, serian dos, la 30 y 28.',
+        imagen: require('@/assets/curso/tema14/img10.png'),
       },
     ],
   }),

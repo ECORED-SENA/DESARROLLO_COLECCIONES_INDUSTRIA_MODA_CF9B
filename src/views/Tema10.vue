@@ -10,16 +10,28 @@
     .row.justify-content-evenly.mb-4      
       .col-lg-6.d-flex.align-items-center
         div.mb-4          
-          p.mb-0 Es la unión de dos piezas, el panty y el corpiño. Se procede de la misma forma que en los escalados estudiados hasta este punto del componente formativo, teniendo en cuenta que se aplican los mismos incrementos, extraídos del cuadro de tallas.
+          p.mb-0 Es la unión de dos piezas, el <i>panty</i> y el corpiño. Se procede de la misma forma que en los escalados estudiados hasta este punto del componente formativo, teniendo en cuenta que se aplican los mismos incrementos, extraídos del cuadro de tallas.
       .col-lg-6.col-8.px-5
         figure.mb-4
           img(src='@/assets/curso/tema10/img01.png') 
 
     p.mb-5 Para realizar el proceso de escalado manual de esta prenda se deben tener en cuenta dos fases importantes: la preparación del escalado y, con ello, el escalado mismo.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.color-acento-contenido.p-4.p-md-5(style="background-color: #E8F0F8")
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src='@/assets/curso/tema13/img02.svg') 
+
+        .col-md.col-lg-6
+          .titulo-segundo.color-acento-contenido
+            h2 Escalado vestido de baño femenino
+          p.mb-4 Para realizar el proceso de escalado manual de esta prenda se deben tener en cuenta dos fases importantes: la preparación del escalado y, con ello, el escalado mismo.
+          
+          a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Anexo8_Escalado_VestidoBaño.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+
+
     
     .tarjeta.tarjeta--gris(style="background-color: #FAFAFA").p-4
       LineaTiempoC.color-acento-contenido(text-small)

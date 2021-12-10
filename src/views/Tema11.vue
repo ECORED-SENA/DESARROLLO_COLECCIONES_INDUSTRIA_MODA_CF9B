@@ -5,16 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 11
-      h1 Básico de leggins
+      h1 Básico de <i>leggins</i>
 
     .row.justify-content-center.mb-4
       .col-lg-6.col-8
         figure.mb-4
           img(src='@/assets/curso/tema11/img01.png') 
       .col-lg-6.d-flex.align-items-center
-        p.mb-4 A continuación, el componente formativo muestra el desarrollo básico de leggins, otra prenda deportiva que se ha impuesto en los últimos años, a tal punto que, poco a poco, ha comenzado a traspasar el ámbito deportivo y las personas han comenzado a usarlos en otro tipo de ambientes y escenarios de la vida común.
+        p.mb-4 A continuación, el componente formativo muestra el desarrollo básico de <i>leggins</i>, otra prenda deportiva que se ha impuesto en los últimos años, a tal punto que, poco a poco, ha comenzado a traspasar el ámbito deportivo y las personas han comenzado a usarlos en otro tipo de ambientes y escenarios de la vida común.
 
-    p.mb-5 Conozca el procedimiento para el desarrollo básico de leggins; preste atención a cada uno de ellos y procure llevar registro en su libreta personal de apuntes.
+    p.mb-5 Conozca el procedimiento para el desarrollo básico de <i>leggins</i>; preste atención a cada uno de ellos y procure llevar registro en su libreta personal de apuntes.
     
     ImagenInfograficaB.color-acento-botones
       template(v-slot:imagen)

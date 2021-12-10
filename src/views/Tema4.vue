@@ -27,7 +27,7 @@
 
     .row.justify-content-center
       .col-lg-4
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Anexo2_Tutorial_Planificacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

@@ -5,16 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Básicos del brasier y principiante de niña
+      h1 Básicos del <i>brasier</i> y principiante de niña
 
     .row.justify-content-center.mb-4
       .col-lg-6.col-8
         figure.mb-4
           img(src='@/assets/curso/tema5/img01.png') 
       .col-lg-6.d-flex.align-items-center
-        p.mb-4 El brasier, los principiantes y el top son prendas superiores, es decir, su uso se aplica en la parte superior del cuerpo de las personas. Su escalado, al igual que las prendas de la zona inferior, tiene una mecánica que se debe seguir para generar las tallas adecuadas y lograr, desde luego, los patrones respectivos. Para este proceso se requieren los materiales básicos como la escuadra de 60°, la curva de cadera, curvígrafo, sisómetro, compás divisional, cinta métrica, tijeras, lápices, marcadores y compás convencional.
+        p.mb-4 El <i>brasier</i>, los principiantes y el top son prendas superiores, es decir, su uso se aplica en la parte superior del cuerpo de las personas. Su escalado, al igual que las prendas de la zona inferior, tiene una mecánica que se debe seguir para generar las tallas adecuadas y lograr, desde luego, los patrones respectivos. Para este proceso se requieren los materiales básicos como la escuadra de 60°, la curva de cadera, curvígrafo, sisómetro, compás divisional, cinta métrica, tijeras, lápices, marcadores y compás convencional.
 
-    p.mb-5 A continuación, estudie el proceso de escalado para base de brasier (corpiño).
+    p.mb-5 A continuación, estudie el proceso de escalado para base de <i>brasier</i> (corpiño).
 
     .row.justify-content-center.t5-linea-tiempo.mb-5
       .col-lg-10
@@ -32,7 +32,7 @@
               figure
                 img(src='@/assets/curso/tema5/img03.svg')    
             .col-lg-5
-              h4.mb-1 Base del Brasier (corpiño)
+              h4.mb-1 Base del <i>Brasier</i> (corpiño)
               p.mb-4 7 - 8= 1/10 de base<br>1 - 9 = 1 /6 de base<br>1 - 10 = ¼ de 1 - 9<br>11 = ½ de la distancia 6 - 8<br>11 - 12 = 1 cm
 
               h4.mb-1 Se curva la sisa uniendo los puntos 8 - 12 - 5
@@ -43,7 +43,7 @@
               figure
                 img(src='@/assets/curso/tema5/img04.svg')    
             .col-lg-5
-              h4.mb-1 Base del Brasier (corpiño)
+              h4.mb-1 Base del <i>Brasier</i> (corpiño)
               p.mb-4 7 - 8= 1/10 de base<br>1 - 9 = 1 /6 de base<br>1 - 10 = ¼ de 1 - 9<br>11 = ½ de la distancia 6 - 8<br>11 - 12 = 1 cm
 
               h4.mb-1 Se curva la sisa uniendo los puntos 8 - 12 - 5
@@ -53,22 +53,22 @@
               figure
                 img(src='@/assets/curso/tema5/img05.svg')    
             .col-lg-5
-              h4.mb-1 Base del Brasier (corpiño)
+              h4.mb-1 Base del <i>Brasier</i> (corpiño)
               p.mb-0 Se curva el escote uniendo los puntos 19 - 20<br>5 – 17 y de18 - 21 = 1/10 de base<br>18 - 22 y de 17 -23 = 1/10 de la distancia 14 -17<br>Trazar sisa uniendo los puntos 21 - 5<br>24 = ½ de la distancia 14 - 17<br>24 - 25 = 1/10 de la distancia 1 - 4    
           .row.justify-content-center(numero="5" titulo="Paso 05") 
             .col-lg-5.col-8    
               figure
                 img(src='@/assets/curso/tema5/img06.svg')    
             .col-lg-5
-              h4.mb-1 Base del Brasier (corpiño)
-              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para brasier la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
+              h4.mb-1 Base del <i>Brasier</i> (corpiño)
+              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para <i>brasier</i> la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
           .row.justify-content-center(numero="6" titulo="Paso 06")          
             .col-lg-5.col-8    
               figure
                 img(src='@/assets/curso/tema5/img07.svg')    
             .col-lg-5
-              h4.mb-1 Base del Brasier (corpiño)
-              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para brasier la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
+              h4.mb-1 Base del <i>Brasier</i> (corpiño)
+              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para <i>brasier</i> la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
 
     .row.justify-content-center
       .col-lg-3.col-6.px-3        
@@ -96,7 +96,7 @@
               figure
                 img(src='@/assets/curso/tema5/img10.svg') 
             .col-6.d-flex.align-items-center
-              h4.mb-0 <b>Brasier tipo bikini</b>
+              h4.mb-0 <b><i>Brasier</i> tipo <i>bikini</i></b>
 
     ModalA(:abrir-modal.sync="modal1")
       SlyderA
