@@ -164,12 +164,12 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -200,139 +200,137 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Celestecielo, G. (2012). Patronaje de diseño de modas y costura  a través de tutoriales gratuitos no descargables. El rincón de Celestecielo.',
+      link: 'https://n9.cl/g8tgc',
+    },
+    {
+      referencia:
+        'Campamentos, J. (1995). Manual técnico de patronaje industrial: ropa interior y vestidos de baño.  Costura 3, Ingenieros. ',
+    },
+    {
+      referencia:
+        'Carrera de Diseño y Gestión en Moda. (2015). Técnicas de patronaje. Tomo I: mujer. Universidad Peruana de Ciencias Aplicadas (UPC).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/41322?page=7 ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Oromí, E. (1986). Método completo de corte sastre para señora. 8a. Ed. Academia de Corte Rocosa. ',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Vélez, M., García, M. & Hincapié, L. (1996). Patronaje y escalado línea interior y deportiva. SENA.',
+      link: 'https://hdl.handle.net/11404/4811',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Vélez, M., García, M. & Hincapié, L. (1995). Patronaje y escalado línea infantil. SENA.',
+      link: 'https://hdl.handle.net/11404/4874',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Vélez, M., García, M. & Hincapié, L. (1995). Patronaje y escalado línea femenina SENA.',
+      link: 'https://hdl.handle.net/11404/4873',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Vélez, M., García, M. & Hincapié, L. (1995). Patronaje y escalado línea masculina. SENA.',
+      link: 'https://hdl.handle.net/11404/5245',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Delantero',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Pieza que forma la parte de delante de una prenda de vestir.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Escalado',
+      significado: 'Adaptación a una determinada escala o marcas de medida.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Escalado de patrones',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Es la técnica de aumentar o disminuir un patrón base a otro, proporcionalmente y en concordancia a un cuadro de tallas establecido.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Escuadrar',
       significado:
-        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Labrar o disponer un objeto de modo que sus caras formen con las caras contiguas ángulos rectos.',
     },
     {
-      termino: 'Moda',
+      termino: 'Industrializar',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es dar el acabado al molde o patrón, señalizando la línea de aplomo, marcando la talla, número de veces que se corta, haciendo piquetes en los puntos estratégicos necesarios para facilitar procesos en producción.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Método',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Modo ordenado y sistemático de proceder para llegar a un resultado o fin determinado.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Molde básico',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Patrón inicial de donde se derivan luego otros patrones. Este no lleva márgenes de costura incluidos.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Patrón',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Plantilla realizada generalmente en cartón o papel, la cual se utiliza para marcar las distintas partes de una prenda. Estos se utilizan para realizar el corte en la tela, pueden o no tener los márgenes de costura.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Patronaje',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es un dibujo en plano de la prenda que se usa como plantilla, para luego transportarlo a la tela con la que se procederá a confeccionar la prenda final.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Patronaje manual',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso de trazar el patrón de la prenda, consiste en desglosar por piezas las diferentes áreas del cuerpo humano a vestir; de manera que cada pieza de tela se adapte a las formas corporales, y la unión de ellas en un orden predeterminado produzca como resultado el modelo de prenda que corresponda con el diseño. ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Refuerzo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Pieza o parte de una cosa que sirve para hacerla más fuerte o resistente.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Talla',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Medida utilizada para la fabricación de prendas de vestir industriales. ',
+    },
+    {
+      termino: 'Trasero',
+      significado:
+        'Que está situado en la parte de atrás de una cosa vista de frente.',
+    },
+    {
+      termino: 'Trazo',
+      significado: 'Línea o raya hecha al escribir o dibujar.',
+    },
+    {
+      termino: 'Vestibilidad',
+      significado:
+        'Es el requisito fundamental que debe cumplir toda prenda para que sea funcional y confortable al ser usada.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para escalado de prendas de vestir.	',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: '',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para escalado aplicado al molde de corpiño.',
+      tipo: 'Video',
+      link: '',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para trazar patrones.	',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: '',
     },
   ],
   creditos: {
@@ -348,7 +346,39 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Luis Alfonso Hincapié Echeverri',
+        cargo: 'Instructor',
+        centro: 'Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Idian Fernando López Agudelo',
+        cargo: 'Instructor',
+        centro: 'Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Ruth Elena Morales Ríos',
+        cargo: 'Instructora',
+        centro: 'Centro de Formación en Diseño, Confección y Moda',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -356,43 +386,78 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Edgar Mauricio Cortés Gárcia',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Daniela Muñoz Bedoya',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santande',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

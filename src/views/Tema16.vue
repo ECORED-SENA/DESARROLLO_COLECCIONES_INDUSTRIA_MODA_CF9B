@@ -18,6 +18,8 @@
 
     p.mb-5 Este es el desarrollo de pantalón deportivo, conocido también como sudadera o <i>jogging</i>.
 
+    div.BorTit.mb-3          
+      i.mb-0 Cuadro de tallas normalizado para pantalones y bermudas
     .tabla-a.color-acento-contenido.mb-5 
       table      
         thead

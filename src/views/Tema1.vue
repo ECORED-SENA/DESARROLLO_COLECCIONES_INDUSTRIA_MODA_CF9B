@@ -81,12 +81,149 @@
 
     .row.justify-content-center
       .col-lg-3.col-6
-        .row.justify-content-center.t1-div1.py-3
-          .col-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema1/img03.svg') 
-          .col-6.d-flex.align-items-center
-            h4.mb-0 <b>¡Importante!</b>
+        a.lnk(@click="modal1 = true")    
+          .row.justify-content-center.t1-div1.py-3
+            .col-4.d-flex.align-items-center
+              figure
+                img(src='@/assets/curso/tema1/img03.svg') 
+            .col-6.d-flex.align-items-center
+              h4.mb-0 <b>¡Importante!</b>
+
+    
+
+    ModalA.modal-t5(:abrir-modal.sync="modal1")
+      h2.mb-2 Cuadro de tallas medidas deducidas femenino:
+      p.mb-4 Este cuadro se completa aplicando las anteriores fórmulas matemáticas a cada una de las tallas.
+      .tabla-a.color-acento-contenido(style="background-color: white")
+              table
+                thead
+                  tr
+                    th Talla
+                    th 6
+                    th 8
+                    th 10
+                    th 12
+                    th 14
+                    th 16
+                    th Incremento
+                tbody
+                  tr
+                    th Tórax máximo
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Cadera
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Submamario
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Pecho
+                    td 40
+                    td 42
+                    td 44
+                    td 46
+                    td 48
+                    td 50
+                    td
+                  tr
+                    th Cintura
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Estatura total o Vertex - suelo
+                    td 164
+                    td 166
+                    td 168
+                    td 170
+                    td 172
+                    td 174
+                    td
+                  tr
+                    th Estatura séptima cervical (Est.7ª C.)
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Talle
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Cuello
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Cintura suelo
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Largo brazo
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Base
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                  tr
+                    th Tiro
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+                    td
+
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -165,19 +302,29 @@
 
     .row.justify-content-center
       .col-lg-3.col-6.px-4
-        .row.justify-content-center.t1-div2.py-3
-          .col-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema1/img06.svg') 
-          .col-6.d-flex.align-items-center
-            h4.mb-0 <b><i>Drop</i><br>masculino</b>
+        a.lnk(@click="modal2 = true")    
+          .row.justify-content-center.t1-div2.py-3
+            .col-4.d-flex.align-items-center
+              figure
+                img(src='@/assets/curso/tema1/img06.svg') 
+            .col-6.d-flex.align-items-center
+              h4.mb-0 <b><i>Drop</i><br>masculino</b>
       .col-lg-3.col-6.px-4
-        .row.justify-content-center.t1-div2.py-3
-          .col-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema1/img07.svg') 
-          .col-6.d-flex.align-items-center
-            h4.mb-0 <b><i>Drop</i><br>femenino</b>
+        a.lnk(@click="modal3 = true")    
+          .row.justify-content-center.t1-div2.py-3
+            .col-4.d-flex.align-items-center
+              figure
+                img(src='@/assets/curso/tema1/img07.svg') 
+            .col-6.d-flex.align-items-center
+              h4.mb-0 <b><i>Drop</i><br>femenino</b>
+
+    ModalA.modal2-t5(:abrir-modal.sync="modal2")
+      h4.mb-2 Diferencia entre pecho y cintura
+      p.mb-0 Un drop - 4 indica una cintura con 4 cm menos que la medida de pecho.<br>Un drop 0 indica una cintura igual al pecho.<br>Un drop + 2 indica una cintura con 2 cm más que el pecho.
+
+    ModalA.modal2-t5(:abrir-modal.sync="modal3")
+      h4.mb-2 Diferencia entre cadera y tórax máximo 
+      p.mb-0 Generalmente una talla se considera normal cuando el drop es positivo en +2 cm, en las tallas extremas y altas el drop se vuelve negativo.<br><br>Un drop - 4 indica que la medida de cadera tiene 4 cm menos que el tórax máximo.<br>Un drop 0 indica que la medida de cadera es igual a la medida de tórax máximo. <br>Un drop + 2 indica la medida de cadera 2 cm mayor que el tórax máximo.
     
     Separador
 
@@ -187,7 +334,7 @@
     p.mb-5 Lo define cada empresa, cada marca como resultado de un estudio de mercado realizado al público objetivo, donde se le hacen ajustes a las medidas iniciales, garantizando que el sector de la población que quiere vestir quedará satisfecho, porque las prendas y tallas se ajustan a su antropometría y necesidades, lo común es encontrar en la industria de la confección que cada empresa maneje su propio cuadro de tallas.
     
     div.BorTit.mb-3          
-      i.mb-0 Desahogo según el tipo de prenda en centímetros
+      i.mb-0 Cuadro de tallas normalizado para ropa femenina
     .tabla-a.color-acento-contenido(style="background-color: white")
       table
         thead
@@ -213,7 +360,7 @@
           tr
             td.text-center(colspan=2) Submamario
             td.text-center 35
-            td.text-center 38
+            td.text-center 37
             td.text-center 39
             td.text-center 41
             td.text-center 43
@@ -256,7 +403,7 @@
             td.text-center 176
             td.text-center 2 cm
           tr
-            td.text-center(colspan=2) Estatura Optima Cervical (Est. 7° C.)
+            td.text-center(colspan=2) Estatura Optima Cervical (Est. 7ª C.)
             td.text-center 146
             td.text-center 148
             td.text-center 150
@@ -267,11 +414,11 @@
           tr
             td.text-center(colspan=2) Talle
             td.text-center 43.8
-            td.text-center 44.4
+            td.text-center 44.8
             td.text-center 45
             td.text-center 45.6
             td.text-center 46.2
-            td.text-center 46.8
+            td.text-center 46.2
             td.text-center 0.6 mm
           tr
             td.text-center(colspan=2) Cuello
@@ -289,7 +436,7 @@
             td.text-center 105
             td.text-center 106.4
             td.text-center 107.8
-            td.text-center 109.2
+            td.text-center 107.8
             td.text-center 1.4 cm
           tr
             td.text-center(colspan=2) Largo brazo
@@ -298,7 +445,7 @@
             td.text-center 60
             td.text-center 60.8
             td.text-center 61.6
-            td.text-center 62.4
+            td.text-center 61.6
             td.text-center 0.8 cm
           tr
             td.text-center(colspan=2) Base
@@ -318,17 +465,6 @@
             td.text-center 26
             td.text-center 27
             td.text-center 1 cm
-
-
-
-
-
-
-
-
-
-
-
                     
     Separador
 
@@ -339,6 +475,9 @@
 export default {
   name: 'Tema1',
   data: () => ({
+    modal1: false,
+    modal2: false,
+    modal3: false,
     datosSlyder: [
       {
         titulo: 'Postura',

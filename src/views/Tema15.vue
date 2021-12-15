@@ -17,12 +17,125 @@
 
     .row.justify-content-center
       .col-lg-5.col-6
-        .row.justify-content-center.t12-div1.py-3        
-          .col-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema15/img08.svg') 
-          .col-8.d-flex.align-items-center
-            h4.mb-0 <b>Cuadro de tallas normalizado</b><br>Camisas y chaquetas
+        a.lnk(@click="modal1 = true")    
+          .row.justify-content-center.t12-div1.py-3        
+            .col-4.d-flex.align-items-center
+              figure
+                img(src='@/assets/curso/tema15/img08.svg') 
+            .col-8.d-flex.align-items-center
+              h4.mb-0 <b>Cuadro de tallas normalizado</b><br>Camisas y chaquetas
+
+    ModalA.modal2-t5(:abrir-modal.sync="modal1")
+        div.BorTit.mb-3          
+          i.mb-0  Cuadro de tallas normalizado para camisas y chaquetas
+        .tabla-a.color-acento-contenido(style="background-color: white")
+              table
+                thead
+                  tr
+                    th Medidas/tallas	
+                    th 34 - XS	
+                    th 36 - S	
+                    th 38 - M	
+                    th 40 - L	
+                    th 42 - XL	
+                    th 44 - XXL	
+                    th 46 - XLL	
+                    th INCREMENTO
+                    
+                tbody
+                  tr
+                    th Contorno de cuello	
+                    td.text-center 34	
+                    td.text-center 36	
+                    td.text-center 38	
+                    td.text-center 40	
+                    td.text-center 42	
+                    td.text-center 44	
+                    td.text-center 46	
+                    td.text-center 2 cm
+                  tr
+                    th S/P pecho	
+                    td.text-center 42.5	
+                    td.text-center 45	
+                    td.text-center 47.5	
+                    td.text-center 50	
+                    td.text-center 52.5	
+                    td.text-center 55	
+                    td.text-center 57.5	
+                    td.text-center 2.5 cm
+                  tr
+                    th S/P de cintura	
+                    td.text-center 36	
+                    td.text-center 38.5	
+                    td.text-center 41
+                    td.text-center 43.5	
+                    td.text-center 46	
+                    td.text-center 48.5	
+                    td.text-center 51	
+                    td.text-center 2.5 cm
+                  tr
+                    th S/P de cadera	
+                    td.text-center 46.5	
+                    td.text-center 49	
+                    td.text-center 51.5	
+                    td.text-center 54	
+                    td.text-center 56.5
+                    td.text-center 59	
+                    td.text-center 61.5	
+                    td.text-center 2.5 cm
+                  tr
+                    th Estatura total	
+                    td.text-center 168	
+                    td.text-center 170	
+                    td.text-center 172	
+                    td.text-center 174	
+                    td.text-center 176	
+                    td.text-center 178	
+                    td.text-center 180	
+                    td.text-center 2 cm
+                  tr
+                    th  Estatura 7ª C.	
+                    td.text-center 144	
+                    td.text-center 146	
+                    td.text-center 148	
+                    td.text-center 150	
+                    td.text-center 152	
+                    td.text-center 154	
+                    td.text-center 156	
+                    td.text-center 2 cm
+                  tr
+                    th Largo del brazo	
+                    td.text-center 57.6	
+                    td.text-center 58.4	
+                    td.text-center 59.2	
+                    td.text-center 60	
+                    td.text-center 60.8	
+                    td.text-center 61.6	
+                    td.text-center 62.4	
+                    td.text-center 0.8 mm
+                  tr
+                    th Talle	
+                    td.text-center 43.5	
+                    td.text-center 44	
+                    td.text-center 44.5	
+                    td.text-center 45	
+                    td.text-center 45.5	
+                    td.text-center 46	
+                    td.text-center 46.5	
+                    td.text-center 0.5 mm
+                  tr
+                    th Contorno de muñeca	
+                    td.text-center 16	
+                    td.text-center 16.6	
+                    td.text-center 17.2	
+                    td.text-center 17.8	
+                    td.text-center 18.4	
+                    td.text-center 19	
+                    td.text-center 19.6	
+                    td.text-center 0.6 mm
+
+
+                    
 
     Separador
 
@@ -98,7 +211,7 @@
 export default {
   name: 'Tema15',
   data: () => ({
-    // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {

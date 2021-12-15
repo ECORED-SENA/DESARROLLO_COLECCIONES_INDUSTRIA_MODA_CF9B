@@ -80,10 +80,11 @@
               .row.justify-content-center
                 .col-lg-6
                   div.mb-4               
-                    p.mb-0 A = Punto de origen<br>A - B y B - C = ½ de base<br>Escuadrar los pUnir con curva suave F - G pasando por el punto 1<br>A - J = 1/10 de la distancia A - E
+                    p.mb-0 Unir con curva suave F - G pasando por el punto 1<br>A - J = 1/10 de la distancia A - E<br>Unir con curva suave J - E<br>B - K = 1/3 de la distancia B - C más 2 cm
                 .col-lg-6
                   div.mb-4               
-                    p.mb-0 Unir con curva suave J - E<br>B - K = 1/3 de la distancia B - C más 2 cm<br>Trazar línea de refuerzo uniendo los puntos K -1<br>El refuerzo queda conformado por los puntos 9 - 10, 9 - 8, 8 - 6, 6 - 3, C - G, G- l, l - K.<br>El refuerzo va doble<br>untos A, B y C<br>A - B y B - F = ½ de base
+                    p.mb-0 Trazar línea de refuerzo uniendo los puntos K -1<br>El refuerzo queda conformado por los puntos 9 - 10, 9 - 8, 8 - 6, 6 - 3, C - G, G- l, l - K.<br>El refuerzo va doble
+              
               .row.justify-content-center
                 .col-lg-6.col-10                  
                   figure.mb-4

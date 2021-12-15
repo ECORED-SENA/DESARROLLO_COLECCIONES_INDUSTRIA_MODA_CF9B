@@ -25,7 +25,7 @@
                 img(src='@/assets/curso/tema5/img02.svg')    
             .col-lg-5
               h4.mb-1 Medidas
-              p.mb-0 Tórax máximo<br>Pecho<br>estatura 7ª C<br>Cintura<br>Base<br>Porcentaje de elasticidad<br>Base = Base x 100<br>100 + 15%<br>Delantero y Espalda
+              p.mb-0 Tórax máximo<br>Pecho<br>estatura 7ª C<br>Cintura<br>Base<br>Porcentaje de elasticidad<br>Base = (Base x 100)/(100 + 15%)<br>Delantero y Espalda
 
           .row.justify-content-center(numero="2" titulo="Paso 02")    
             .col-lg-5.col-8    
@@ -33,10 +33,7 @@
                 img(src='@/assets/curso/tema5/img03.svg')    
             .col-lg-5
               h4.mb-1 Base del <i>Brasier</i> (corpiño)
-              p.mb-4 7 - 8= 1/10 de base<br>1 - 9 = 1 /6 de base<br>1 - 10 = ¼ de 1 - 9<br>11 = ½ de la distancia 6 - 8<br>11 - 12 = 1 cm
-
-              h4.mb-1 Se curva la sisa uniendo los puntos 8 - 12 - 5
-              p.mb-0 2 - 13 = a la distancia 4 - 5<br>5 - 14 y 13 - 16 = ½ de base<br>15 - 19 y 15 - 20 = 1 /6 de base
+              p.mb-4 1 = Punto de origen<br>1 - 2 = 3/10 de estatura 7ª C<br>1 - 3 = 1/10 de estatura 7ª C<br>3 - 4 = 1/5 de base<br>4-5= ½ de base<br>5 - 6 = 1/10 de base<br>1 - 7 = a la distancia 4 - 6
  
           .row.justify-content-center(numero="3" titulo="Paso 03")  
             .col-lg-5.col-8    
@@ -54,21 +51,21 @@
                 img(src='@/assets/curso/tema5/img05.svg')    
             .col-lg-5
               h4.mb-1 Base del <i>Brasier</i> (corpiño)
-              p.mb-0 Se curva el escote uniendo los puntos 19 - 20<br>5 – 17 y de18 - 21 = 1/10 de base<br>18 - 22 y de 17 -23 = 1/10 de la distancia 14 -17<br>Trazar sisa uniendo los puntos 21 - 5<br>24 = ½ de la distancia 14 - 17<br>24 - 25 = 1/10 de la distancia 1 - 4    
+              p.mb-0 <b>Se curva el escote uniendo los puntos 19 - 20</b><br>5 – 17 y de18 - 21 = 1/10 de base<br>18 - 22 y de 17 -23 = 1/10 de la distancia 14 -17<br><b>Trazar sisa uniendo los puntos 21 - 5</b><br>24 = ½ de la distancia 14 - 17<br>24 - 25 = 1/10 de la distancia 1 - 4    
           .row.justify-content-center(numero="5" titulo="Paso 05") 
             .col-lg-5.col-8    
               figure
                 img(src='@/assets/curso/tema5/img06.svg')    
             .col-lg-5
               h4.mb-1 Base del <i>Brasier</i> (corpiño)
-              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para <i>brasier</i> la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
+              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, <b>trazar circunferencia que nos demarca la ubicación del pecho</b>.<br>Para <i>brasier</i> la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
           .row.justify-content-center(numero="6" titulo="Paso 06")          
             .col-lg-5.col-8    
               figure
                 img(src='@/assets/curso/tema5/img07.svg')    
             .col-lg-5
               h4.mb-1 Base del <i>Brasier</i> (corpiño)
-              p.mb-0 En el punto 25 con un radio igual a la distancia 14 - 24 menos 2 cm, trazar circunferencia que nos demarca la ubicación del pecho.<br>Para <i>brasier</i> la prenda de 2 - 32, 13 - 30 y 13 - 31 es igual a 1/3 de la diferencia de cintura y pecho.
+              p.mb-0 Dividir la circunferencia en cuatro partes iguales, encontrando los puntos 26, 27, 28 y 29.
 
     .row.justify-content-center
       .col-lg-3.col-6.px-3        
@@ -97,8 +94,8 @@
                 img(src='@/assets/curso/tema5/img10.svg') 
             .col-6.d-flex.align-items-center
               h4.mb-0 <b><i>Brasier</i> tipo <i>bikini</i></b>
-
-    ModalA(:abrir-modal.sync="modal1")
+    
+    ModalA.modal-t5(:abrir-modal.sync="modal1")
       SlyderA
         .row.justify-content-evenly
           .col-lg-4.d-flex.align-items-center
@@ -125,7 +122,7 @@
               figure.w-75
                 img(src='@/assets/curso/tema5/img13.svg') 
 
-    ModalA(:abrir-modal.sync="modal2")
+    ModalA.modal-t5(:abrir-modal.sync="modal2")
       SlyderA      
         .row.justify-content-center
           .col-lg-6.col-10.d-flex.align-items-center
@@ -172,7 +169,7 @@
               h4 Espalda
               p.mb-0 A= punto de origen<br>A – B = 5 cm<br>Escuadrar el punto B<br>8 - C = 14 cm<br>Escuadrar el punto C<br>C - 0 = 3.5 cm<br>Unir con curva A - D según gráfico<br>Para ubicar las cargaderas D - E= 6.5 cm<br>Marcar piquete en el punto E
 
-    ModalA(:abrir-modal.sync="modal3")
+    ModalA.modal-t5(:abrir-modal.sync="modal3")
       SlyderA      
         .row.justify-content-center
           .col-lg-4.col-5.d-flex.align-items-center
