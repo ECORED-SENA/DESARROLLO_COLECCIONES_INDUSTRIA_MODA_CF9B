@@ -32,8 +32,8 @@
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p <b>Anexo.</b> Estudie el anexo Tutorial Planificación Escalado y asimile los aspectos más importantes del escalado de patrones de ropa interior y deportiva.
-      .col-lg-4
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      .col-lg-4      
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/o73XRIZZLMs" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

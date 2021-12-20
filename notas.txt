@@ -1,13 +1,6 @@
-Para el diseñador
-H21 - La informacion faltante no fue incluida en el diseño
+
 
 Para Luis
-H1 - Video aun no disponible
-H6 - Video aun no disponible
-H7 - No se encuentra link del video
-H8 - No se encuentra link del video
-H14 - No se encuentra link del video
-H20 - No se encuentra la actividad didactica
 H24 - No se encuentra link a los videos
 
 

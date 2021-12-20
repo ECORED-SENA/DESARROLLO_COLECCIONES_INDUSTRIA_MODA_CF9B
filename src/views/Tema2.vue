@@ -17,12 +17,12 @@
     p.mb-5 Conozca las generalidades y aspectos más importantes de los tejidos y telas, visualizando con atención el recurso que se muestra a continuación:
     
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/jlmIzZzoFro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center
-      .col-lg-8
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      .col-lg-8      
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/-PVvG8vdEHI" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

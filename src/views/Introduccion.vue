@@ -16,8 +16,8 @@
         p.mb-4 Para comenzar esta experiencia visualice el recurso que se muestra a continuación.<br><b>¡Adelante!</b>
     
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(iframe width="1280" height="720" src="https://www.youtube.com/embed/zGI0kCp5mbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
 
 </template>

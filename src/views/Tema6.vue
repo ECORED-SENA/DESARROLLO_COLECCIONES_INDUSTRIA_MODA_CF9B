@@ -19,18 +19,18 @@
 
 
     .row.justify-content-center
+      .col-lg-5      
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/adKL5Nzn1yA" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <b>Enlace web.</b> Observe con mucha atención el video que aquí se sugiere “Método SENA para escalado aplicado al molde de corpiño”; en este conocerá el paso a paso del proceso de escalado de corpiño.
       .col-lg-5
         a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Anexo3_Escalado_Corpiño.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <b>Anexo.</b> Refuerce los elementos vistos en el video y estudie este documento que contiene en detalle y con ilustraciones, el método SENA para escalado aplicado al molde de corpiño.
-      .col-lg-5
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p <b>Enlace web.</b> Observe con mucha atención el video que aquí se sugiere “Método SENA para escalado aplicado al molde de corpiño”; en este conocerá el paso a paso del proceso de escalado de corpiño.
+            p <b>Anexo.</b> Refuerce los elementos vistos en el video y estudie este documento que contiene en detalle y con ilustraciones, el método SENA para escalado aplicado al molde de corpiño.      
 
 
     Separador

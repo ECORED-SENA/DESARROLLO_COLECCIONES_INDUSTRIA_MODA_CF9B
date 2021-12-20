@@ -323,19 +323,19 @@ export default {
       texto:
         'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para escalado de prendas de vestir.	',
       tipo: 'Video',
-      link: '',
+      link: 'https://www.youtube.com/embed/o73XRIZZLMs',
     },
     {
       texto:
         'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para escalado aplicado al molde de corpiño.',
       tipo: 'Video',
-      link: '',
+      link: 'https://www.youtube.com/embed/adKL5Nzn1yA',
     },
     {
       texto:
         'Comunicaciones Centro de Formación en Diseño, Confección y Moda. (2021). Método SENA para trazar patrones.	',
       tipo: 'Video',
-      link: '',
+      link: 'https://www.youtube.com/embed/-PVvG8vdEHI',
     },
   ],
   creditos: {
