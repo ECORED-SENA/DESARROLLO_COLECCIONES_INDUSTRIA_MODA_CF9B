@@ -16,13 +16,81 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-6
-        .row.justify-content-center.t12-div1.py-3        
-          .col-4.d-flex.align-items-center
-            figure
-              img(src='@/assets/curso/tema12/img02.svg') 
-          .col-8.d-flex.align-items-center
-            h4.mb-0 <b>Cuadro de tallas normalizado</b><br>Pantalones y burmudas
+        a.lnk(@click="modal1 = true")    
+          .row.justify-content-center.t12-div1.py-3        
+            .col-4.d-flex.align-items-center
+              figure
+                img(src='@/assets/curso/tema12/img02.svg') 
+            .col-8.d-flex.align-items-center
+              h4.mb-0 <b>Cuadro de tallas normalizado</b><br>Pantalones y burmudas
 
+    ModalA.modal2-t5(:abrir-modal.sync="modal1")
+      h2.mb-2 Cuadro de tallas normalizado para pantalones y burmudas      
+      .tabla-a.color-acento-contenido(style="background-color: white")
+              table
+                thead
+                  tr
+                    th Medidas/tallas	
+                    th 28	
+                    th 30	
+                    th 32	
+                    th 34	
+                    th 36	
+                    th 38	
+                    th 40	
+                    th Incremento                     
+                tbody
+                  tr
+                    th S/P de cintura	
+                    td 36	
+                    td 38.5	
+                    td 41	
+                    td 43.5	
+                    td 46	
+                    td 48.5	
+                    td 51	
+                    td 2.5 cm                    
+                  tr
+                    th S/P de cadera
+                    td 46.5	
+                    td 49	
+                    td 51.5	
+                    td 54	
+                    td 56.5	
+                    td 59	
+                    td 61.5	
+                    td 2.5 cm
+                  tr
+                    th Cintura al suelo	
+                    td 100.5	
+                    td 102	
+                    td 103.5	
+                    td 105	
+                    td 106.5	
+                    td 108	
+                    td 109.5	
+                    td 1.5 cm
+                  tr
+                    th Largo total	
+                    td 105	
+                    td 106.5	
+                    td 108	
+                    td 109.5	
+                    td 111	
+                    td 112.5	
+                    td 114	
+                    td 1.5 cm
+                  tr
+                    th Bajo	
+                    td 20	
+                    td 21	
+                    td 22	
+                    td 23	
+                    td 24	
+                    td 25	
+                    td 26	
+                    td 1 cm
+                  
     p.mb-5 Ahora, conozca el procedimiento para el desarrollo del básico del interior masculino (adulto).
 
     div.tema12
@@ -118,7 +186,7 @@
 export default {
   name: 'Tema12',
   data: () => ({
-    // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
